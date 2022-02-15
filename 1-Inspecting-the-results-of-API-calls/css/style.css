@@ -1,5 +1,18 @@
+body {
+background-color: cornsilk;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .results > div {
+    background-color: darkblue;
+    color: #cccccc;
+    font-weight: bold;
     padding: 1rem;
     border: 1px solid grey;
-    margin: 1rem;
+    border-radius: 1rem;
 }

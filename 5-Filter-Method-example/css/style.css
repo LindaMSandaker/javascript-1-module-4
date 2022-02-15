@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 900px;
     margin: 20px auto;
+    background-color: darkslategrey;
 }
 
 .team-container {
@@ -20,9 +21,10 @@ body {
 .team {
     margin: 1rem;
     padding: 1rem;
-    background: white;
+    background: powderblue;
     border: 1px solid lightgrey;
     border-radius: 1rem;
+    box-shadow: 0 4px 4px 4px rgba(43, 43, 43, 0.65);
     min-width: 200px;
     position: relative;
 }

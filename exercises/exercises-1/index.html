@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>
+        <span class="logo">Jukebox.io</span>
+        <br/>
+        your one stop music source.
+    </h1>
+    <p>Hottest recommendations engine this side of the interwebs!</p>
+    <form action="#" method="POST" class="subscribe-form">
+        <fieldset>
+            <legend>Your details</legend>
+            <div class="subscribe-form__inputs">
+                <label for="firstName">
+                    First Name:
+                </label>
+                <input type="text" name="name" id="firstName"/>
+                <div class="error__container">
+                    <svg
+                            width="24px"
+                            height="24px"
+                            viewBox="0 0 24 24"
+                            role="img"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-labelledby="errorIconTitle"
+                            id="error-icon"
+                            stroke="#E81212"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            fill="none"
+                            color="#E81212">
+                        <title id="errorIconTitle">Error</title>
+                        <path d="M12 8L12 13"/>
+                        <line x1="12" y1="16" x2="12" y2="16"/>
+                        <circle cx="12" cy="12" r="10"/>
+                    </svg>
+                    <p class="error__message"></p>
+                </div>
+            </div>
+        </fieldset>
+        <input type="submit" name="submit" value="Subscribe"/>
+    </form>
+</div>
+</body>
+</html>

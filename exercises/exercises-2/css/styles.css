@@ -1,0 +1,16 @@
+.error__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.error__container svg,
+.error__container p {
+    font-size: 14px;
+    color: red;
+}
+
+.error__container svg {
+    margin-right: 10px;
+    display: none;
+}
